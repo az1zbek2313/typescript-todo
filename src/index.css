@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('./assets/catia-dombaxe-C_Yxsk_CxG0-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -1200px;
+  font-family: "Merriweather", serif;
+}
+.todoWrap{
+  max-width:600px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: white;
+  background-image:url('./assets/eugene-golovesov-toUOhQZTRuU-unsplash.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
+.todo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.todo__input{
+  width: 80%;
+  height: 100%;
+  border-radius:5px;
+  outline: none;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: "Merriweather", serif;
+}
+.todo__button{
+  width: 18%;
+  height: 100%;
+  border-radius: 5px;
+  color:#fff;
+  font-size: 20px;
+  background-color:brown;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-family: "Merriweather", serif;
+}
+.todo__button:hover{
+  background-color:red;
+}
+table{
+  background-color:white;
+  color:#000;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+thead{
+
+}
+tbody{
+
+}
+tr{
+  height: 30px;
+  border-collapse: collapse;
+  border:1px solid brown;
+}
+td{
+  border:1px solid brown;
+  text-align: center;
+}
+.actionss .fa-regular{
+  margin-left: 12px;
+  color: green;
+  cursor: pointer;
+}
+.actionss .fa-solid{
+  color: brown;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.actionss .fa-solid:hover{
+  color: red;
+}
+th{
+  text-align: center;
+}
+#exampleModal{
+  background-image:url('./assets/andrea-de-santis-yghqXfn70pE-unsplash.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
